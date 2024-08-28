@@ -7,8 +7,15 @@ b = 3
 resultado = sumar(a, b)
 print("El resultado de la suma de", a, "y", b, "es:", resultado)
 
-# def restar(a, b):
-#     # aqui se realiza la resta de dos numeros
+def restar(a, b):
+        # aqui se realiza la resta de dos numeros
+    return a - b
+a = 5
+b = 3
+
+resultado = restar(a, b)
+print("El resultado de la resta de", a, "y", b, "es:", resultado)
+
 
 # def multiplicar(a, b):
 #     # aqui se realiza la multiplicacion de dos numeros
